@@ -1,3 +1,6 @@
+"""Find the area and the perimeter of triagle."""
+
+
 class Triangle:
 
     def __init__(self, side1, side2, side3):
@@ -15,7 +18,7 @@ class Triangle:
             if i ** 2 == area_2:
                 return i
 
+
 triangle = Triangle(3, 4, 5)
 print('Perimeter:', triangle.perimeter())
 print('Area:', triangle.area())
-
